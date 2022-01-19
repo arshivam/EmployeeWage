@@ -1,18 +1,12 @@
-public class EmployeeAttendanceuc1
-{
-   public static void main(String[] arg)
-   {
+public class EmployeeAttendanceuc1 {
+   public static void main(String[] args) {
     int IS_FULL_TIME = 1;
     double empcheck = Math.floor(Math.random() * 10) % 2;
-    if (empcheck == IS_FULL_TIME)
-    {
+    if (empcheck == IS_FULL_TIME) {
        System.out.println("employee is present");
     }
-    else
-    {
+    else {
        System.out.println("employee is absent");
     }
-
-   }
-
+  }
 }
